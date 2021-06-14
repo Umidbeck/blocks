@@ -75,8 +75,11 @@ WSGI_APPLICATION = 'blocks.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': "blocks",
+        'Host': "127.0.0.1" ,
+        'User': "root",
+        'PASSWORD': "Password123@#$%!"
     }
 }
 
