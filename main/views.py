@@ -1,4 +1,5 @@
 from django.shortcuts import render
 
-def hpme(request):
+
+def home(request):
     return render(request, 'home.html')
